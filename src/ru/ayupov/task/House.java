@@ -11,6 +11,10 @@ public class House {
 
     @Override
     public String toString() {
-        return String.format("%-30s|%-15s|%-25s|%-125s", name, region, (!words.equals("")) ? words : "-", coatOfArms);
+        return String.format("%-30s|%-15s|%-25s|%-125s",
+                name,
+                region,
+                (!words.equals("")) ? words : "-",
+                (!coatOfArms.equals("")) ? coatOfArms : "-");
     }
 }

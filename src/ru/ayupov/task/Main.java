@@ -41,8 +41,8 @@ public class Main {
         }
 
         if (houses != null) {
+            System.out.println("Дома из вселенной \"Песнь льда и пламени\" Джорджа Р. Р. Мартина:");
             System.out.println(String.format("%-30s|%-15s|%-25s|%-125s", "Название дома", "Земли", "Девиз", "Герб"));
-
             System.out.println(new String(new char[200]).replace("\0", "-"));
 
             for (House house : houses) {
